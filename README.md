@@ -1,5 +1,5 @@
 # Swarm Intelligence & Combat Architecture Specification
-## Target Implementation: `main4.cpp` (Upgraded from `main3.cpp`)
+## Target Implementation: 
 
 This document serves as the **final, authoritative engineering specification** for an AI Coding Agent to implement the next-generation bot for the UNSW Battlecode Dragon Game. It consolidates the Action-Heap architecture from `main3.cpp`, the Google Docs Swarm Intelligence design, and the user's specific strategic directives.
 
