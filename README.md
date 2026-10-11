@@ -27,6 +27,12 @@ An elite, high-performance decentralized AI engine engineered in **C++20** for t
 
 ## 📂 Repository Structure
 
+⚙️ Performance EngineeringLanguage Standard: C++20 (Compiled with -O2 optimizations for strict execution tick limits).Memory Management: Zero-allocation hot paths during turn loops utilizing stack-allocated arrays and cache-efficient containers (std::vector, std::deque).Spatial Processing: Optimized $\mathcal{O}(N)$ BFS window flood-filling algorithms evaluating area openness and threat weight penalties.🚀 Build & ExecutionTo compile and execute the bot against the competition runner:Bash# Compile using a modern C++20 compiler
+g++ -std=c++20 -O2 main.cpp helper.hpp -o bot
+
+# Run via the official Battlecode client
+battlecode-client run ./bot
+
 ```text
 ├── main.cpp          # Core bot decision engine, action heap resolver, and behavior trees[cite: 3, 4]
 ├── helper.hpp        # UNSW Battlecode engine bindings, types, and spatial map wrappers
